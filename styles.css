@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-weight: 900;
+}
+.darkbackground {
+    height: 250px;
+    background: darkblue;
+    color: white;
+}
+.darkContentS1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+.headerSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(70, 86, 139);
+    padding: 20px;
+}
+.headerlogo{
+    font-size: 50px;
+    justify-content: left;
+}
+.headerLinks{
+    color: antiquewhite;
+    font-size: 15px;
+    justify-content: flex-end;
+    align-items: center;
+    display:flex;
+    flex-direction: row;  
+}
+.headerLinks a {
+    margin-right: 30px; /* Adjust the value as needed */
+}
+a {
+    color: white;
+    text-decoration: none; /* Optional: Removes underlines from links */
+}
+.darkContentLeft{
+    flex: 1;
+    word-wrap: break-word; /* Add this line for text wrapping */
+    max-width: 400px; /* Adjust the value as needed */
+
+}
+.darkImgRight, .img{
+  flex-shrink: 0;
+  width:300px;
+  height:100px;
+}
+button {
+    background-color: #3498db; 
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+.S2whtImg{
+    display: flex;
+    justify-content: space-around; /* Align items with space around them */
+    align-items: center; /* Center items vertically */
+    margin: 10px;
+}
+.S2whtImg img {
+    width: 300px;
+    height: 100px;
+}
+.S2whtImg p {
+    text-align: center; /* Center the text below the images */
+    margin: 5px; /* Add margin for spacing between text and images */
+}
