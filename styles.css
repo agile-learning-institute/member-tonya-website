@@ -22,6 +22,10 @@ h1{
 }
 .whitebackground h2 {
     text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 15px;
 }
 .darkContentS1{
     display: flex;
@@ -91,40 +95,50 @@ button {
 }
 .boxContainer {
     display: flex; /* Activates Flexbox layout */
-    justify-content: space-around; /* This will space out the boxes evenly */
+    justify-content: space-around;
     align-items: center; /* This will vertically align items in the middle, if they have different heights */
+
   }
   
+  .indContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .box{
-    flex: 1;
+    height: 75px;
+    width:80px;
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #3882F6;
     border-radius: 10px;
     text-align: center;
   }
-.indContainer{
-    
-}
+
   .box p {
     margin: 0; /* Remove default margin for better alignment */
     text-align: center; /* Center the text */
     margin-top: 10px; /* Add spacing between the box and text */
+
 }
 .boxText {
     text-align: center;
-    display: flex;
-    flex: 1;
+    margin-top:10px;
+   
 }
 
 .boxText p {
-    margin: 10px 0; /* Add some margin for spacing between text */
+    font-weight: lighter;
+    font-size: 14px;
+    width: 85px;
+    text-align: center;
+
 }
-
-  .boxContent {
-
-    }
   .greybackground {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
     height: 150px;
     background-color: #E5E7EB; /* Set the background color to gray or any other color you prefer */
     padding: 40px; /* Add padding for spacing within the div */
@@ -138,5 +152,5 @@ button {
 
 }
 .greyContent2 {
-
+text-align: right;
 }
