@@ -48,6 +48,7 @@ h1{
 .headerLogo {
     font-size:24px;
     justify-content: left;
+    padding-left: 40px;
 }
 .headerLinks{
     color: #E5E7EB;
@@ -57,6 +58,7 @@ h1{
     align-items: center;
     display:flex;
     flex-direction: row;  
+    padding-right: 20px;
 }
 .headerLinks a {
     margin-right: 30px; /* Adjust the value as needed */
@@ -90,7 +92,7 @@ button {
     color: white;
     padding: 8px 30px; /* Adjust the padding values for height and width */
     border: none;
-    border-radius: 10px; 
+    border-radius: 5px; 
     cursor: pointer;
 }
 .boxContainer {
@@ -160,19 +162,21 @@ color: #1F2937;
 }
 
 .bluebackground {
-    width: 600px; /* Adjust the value as needed */
+    width: 500px; /* Adjust the value as needed */
     margin: 0 auto; /* This centers the box horizontally */
-    background-color: #3498db; /* Add your desired background color */
+    background-color: #3882F6; /* Add your desired background color */
     color: white; /* Set the text color to white or a contrasting color */
     padding: 20px; /* Add padding for spacing within the box */
     text-align: left; /* Align text to the left within the box */
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .centerContent {
     display: flex;
     justify-content: space-between;
     color: white; /* Set text color to white or a contrasting color */
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .leftContent {
@@ -195,13 +199,24 @@ font-weight:normal;
     color: #e7eaec; /* Set text color to your desired color */
     border: 1px solid #e6edf2; /* Add a border with your desired color */
     padding: 5px 30px;
-    border-radius: 8px;
+    border-radius: 5px;
     cursor: pointer;
     font-size: 12px;;
 }
-.whitebackgroundBottom{
+.whitebackgroundBottom {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 200px;
+}
+.darkbackgroundFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #1F2937;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: lighter;
 }
