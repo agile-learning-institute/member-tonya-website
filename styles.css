@@ -123,8 +123,7 @@ button {
 }
 .boxText {
     text-align: center;
-    margin-top:10px;
-   
+    margin-top:10px;  
 }
 
 .boxText p {
@@ -132,7 +131,6 @@ button {
     font-size: 14px;
     width: 85px;
     text-align: center;
-
 }
   .greybackground {
    display: flex;
@@ -144,13 +142,66 @@ button {
     padding: 40px; /* Add padding for spacing within the div */
     color: #1F2937; /* Set text color to white or a contrasting color */
 }
+
 .greyContent1 {
     word-wrap: break-word; /* Add this line for text wrapping */
-    max-width: 350px; /* Adjust the value as needed */
-    
+    max-width: 380px; /* Adjust the value as needed */
     text-align: left;
-
+    font-size: 18px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
 }
+
 .greyContent2 {
 text-align: right;
+font-size: 10px;
+color: #1F2937;
+}
+
+.bluebackground {
+    width: 600px; /* Adjust the value as needed */
+    margin: 0 auto; /* This centers the box horizontally */
+    background-color: #3498db; /* Add your desired background color */
+    color: white; /* Set the text color to white or a contrasting color */
+    padding: 20px; /* Add padding for spacing within the box */
+    text-align: left; /* Align text to the left within the box */
+    border-radius: 10px;
+}
+
+.centerContent {
+    display: flex;
+    justify-content: space-between;
+    color: white; /* Set text color to white or a contrasting color */
+}
+
+.leftContent {
+    flex: 1; /* Takes up available space on the left */
+}
+.leftContent h3 {
+font-size: 14px;
+font-weight:normal;
+}
+.leftContent p {
+    font-weight: lighter;
+    font-size: 9px;
+}
+
+.rightContent {
+    margin-left: 20px; /* Adjust margin as needed for space between text and button */
+}
+.buttonBottom {
+    background-color: transparent; /* Set background color to transparent */
+    color: #e7eaec; /* Set text color to your desired color */
+    border: 1px solid #e6edf2; /* Add a border with your desired color */
+    padding: 5px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12px;;
+}
+.whitebackgroundBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
 }
