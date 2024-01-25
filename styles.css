@@ -11,7 +11,7 @@ h1{
     color: #F9FAF8;
 }
 .darkbackground {
-    height: 350px;
+    height: 450px;
     background-color: #1F2937;
     color: white;
     padding: 20px;
@@ -31,7 +31,7 @@ h1{
 }
 .darkContentLeft .darkContentText p { 
     font-weight: lighter;
-    margin-bottom: 10px; /* Adds space between button and text */
+    margin-bottom: 15px; /* Adds space between button and text */
 }
 
 .headerSection{
@@ -66,10 +66,20 @@ a {
     word-wrap: break-word; 
     max-width: 400px; 
 }
-.darkImgRight, .img{
-  flex-shrink: 0;
-  width:300px;
-  height:100px;
+.greyBox {
+    background-color: #E5E7EB; /* Set the background color to grey or any other color you prefer */
+    padding: 20px; /* Add padding for spacing within the box */
+    text-align: center; /* Center the text horizontally */
+    color: #1F2937; /* Set text color to a contrasting color */
+    height:125px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* The display: flex; property activates Flexbox layout, providing a flexible way to structure and align elements. In this case:
+* justify-content: center; centers the content along the horizontal axis, ensuring it's horizontally centered within the container.
+* align-items: center; centers the content along the vertical axis, ensuring it's vertically centered within the container.
+    */
 }
 button {
     background-color: #3882F6; 
@@ -79,25 +89,6 @@ button {
     border-radius: 10px; 
     cursor: pointer;
 }
-.S2whtImg{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; /* Align items with space around them */
-    align-items: center; /* Center items vertically */
-    margin: 10px;
-
-    width: 100%; /* Ensure the image takes up 100% of the box's width */
-    height: auto; /* Maintain the image's aspect ratio */
-    display: block; /* Remove default inline spacing */
-}
-.S2whtImg img {
-    width: 200px;
-    height: 200px;
-}
-.S2whtImg p {
-    text-align: center; /* Center the text below the images */
-    margin: 5px; /* Add margin for spacing between text and images */
-}
 .boxContainer {
     display: flex; /* Activates Flexbox layout */
     justify-content: space-around; /* This will space out the boxes evenly */
@@ -106,19 +97,26 @@ button {
   }
   
   .box{
-    flex: 1; /* This makes each box flex and take up equal space */
-    margin: 10px; /* Adds some space around each box */
-    padding: 20px; /* Adds space inside each box */
-    border: 1px solid #3882F6; /* Adds a border for visual structure */
-    text-align: center; /* Centers the text inside the box */
-
-    border-radius: 10px; /* Adjust the value to control the roundness of the rectangles */
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #3882F6;
     border-radius: 10px;
-    max-width: 200px; /* Example: maximum width for each box */
-    min-width: 100px; /* Example: minimum width for each box */  
+    text-align: center;
   }
-  
-  
+  .box p {
+    margin: 0; /* Remove default margin for better alignment */
+    text-align: center; /* Center the text */
+    margin-top: 10px; /* Add spacing between the box and text */
+}
+.boxText {
+    text-align: center;
+}
+
+.boxText p {
+    margin: 10px 0; /* Add some margin for spacing between text */
+}
+
   .boxContent {
 
     }
