@@ -93,7 +93,6 @@ button {
     display: flex; /* Activates Flexbox layout */
     justify-content: space-around; /* This will space out the boxes evenly */
     align-items: center; /* This will vertically align items in the middle, if they have different heights */
-    flex-wrap: wrap; /* This allows the boxes to wrap onto the next line if the container is too narrow */
   }
   
   .box{
@@ -104,6 +103,9 @@ button {
     border-radius: 10px;
     text-align: center;
   }
+.indContainer{
+    
+}
   .box p {
     margin: 0; /* Remove default margin for better alignment */
     text-align: center; /* Center the text */
@@ -111,6 +113,8 @@ button {
 }
 .boxText {
     text-align: center;
+    display: flex;
+    flex: 1;
 }
 
 .boxText p {
