@@ -7,34 +7,48 @@ body{
 }
 
 h1{
-    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
 }
 .darkbackground {
-    height: 250px;
-    background: darkblue;
+    height: 350px;
+    background-color: #1F2937;
     color: white;
+    padding: 20px;
+}
+.whitebackground{
+    height: 300px;
+    padding: 20px; 
+}
+.whitebackground h2 {
+    text-align: center;
 }
 .darkContentS1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-
+    padding: 60px;
 }
+.darkContentLeft .darkContentText p { 
+    font-weight: lighter;
+    margin-bottom: 10px; /* Adds space between button and text */
+}
+
 .headerSection{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(70, 86, 139);
+   /* background: rgb(70, 86, 139);*/
     padding: 20px;
 }
-.headerlogo{
-    font-size: 50px;
+.headerLogo {
+    font-size:24px;
     justify-content: left;
 }
 .headerLinks{
-    color: antiquewhite;
-    font-size: 15px;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: lighter;
     justify-content: flex-end;
     align-items: center;
     display:flex;
@@ -47,11 +61,10 @@ a {
     color: white;
     text-decoration: none; /* Optional: Removes underlines from links */
 }
-.darkContentLeft{
+.darkContentLeft {
     flex: 1;
-    word-wrap: break-word; /* Add this line for text wrapping */
-    max-width: 400px; /* Adjust the value as needed */
-
+    word-wrap: break-word; 
+    max-width: 400px; 
 }
 .darkImgRight, .img{
   flex-shrink: 0;
@@ -59,24 +72,69 @@ a {
   height:100px;
 }
 button {
-    background-color: #3498db; 
+    background-color: #3882F6; 
     color: white;
-    padding: 10px 20px; 
+    padding: 8px 30px; /* Adjust the padding values for height and width */
     border: none;
     border-radius: 10px; 
     cursor: pointer;
 }
 .S2whtImg{
     display: flex;
+    flex-direction: column;
     justify-content: space-around; /* Align items with space around them */
     align-items: center; /* Center items vertically */
     margin: 10px;
+
+    width: 100%; /* Ensure the image takes up 100% of the box's width */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove default inline spacing */
 }
 .S2whtImg img {
-    width: 300px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 .S2whtImg p {
     text-align: center; /* Center the text below the images */
     margin: 5px; /* Add margin for spacing between text and images */
+}
+.boxContainer {
+    display: flex; /* Activates Flexbox layout */
+    justify-content: space-around; /* This will space out the boxes evenly */
+    align-items: center; /* This will vertically align items in the middle, if they have different heights */
+    flex-wrap: wrap; /* This allows the boxes to wrap onto the next line if the container is too narrow */
+  }
+  
+  .box{
+    flex: 1; /* This makes each box flex and take up equal space */
+    margin: 10px; /* Adds some space around each box */
+    padding: 20px; /* Adds space inside each box */
+    border: 1px solid #3882F6; /* Adds a border for visual structure */
+    text-align: center; /* Centers the text inside the box */
+
+    border-radius: 10px; /* Adjust the value to control the roundness of the rectangles */
+    border-radius: 10px;
+    max-width: 200px; /* Example: maximum width for each box */
+    min-width: 100px; /* Example: minimum width for each box */  
+  }
+  
+  
+  .boxContent {
+
+    }
+  .greybackground {
+    height: 150px;
+    background-color: #E5E7EB; /* Set the background color to gray or any other color you prefer */
+    padding: 40px; /* Add padding for spacing within the div */
+    color: #1F2937; /* Set text color to white or a contrasting color */
+}
+.greyContent1 {
+    word-wrap: break-word; /* Add this line for text wrapping */
+    max-width: 350px; /* Adjust the value as needed */
+    
+    text-align: left;
+
+}
+.greyContent2 {
+
 }
