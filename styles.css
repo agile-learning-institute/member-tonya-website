@@ -17,13 +17,14 @@ h1{
     padding: 20px;
 }
 .whitebackground{
-    height: 300px;
+    margin-top: 50px;
+    height: 280px;
     padding: 20px; 
 }
 .whitebackground h2 {
     text-align: center;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 25px;
     color: #1F2937;
     margin-bottom: 15px;
 }
@@ -46,13 +47,14 @@ h1{
     padding: 20px;
 }
 .headerLogo {
-    font-size:24px;
+    font: size 24px;
     justify-content: left;
     padding-left: 40px;
+    color:#F9FAF8
 }
 .headerLinks{
-    color: #E5E7EB;
-    font-size: 18px;
+    color: #F9FAF8;
+    font-size: 15px;
     font-weight: lighter;
     justify-content: flex-end;
     align-items: center;
@@ -73,10 +75,10 @@ a {
     max-width: 400px; 
 }
 .greyBox {
-    background-color: #E5E7EB; /* Set the background color to grey or any other color you prefer */
+    background-color: #e5e7eb4c; /* Set the background color to grey or any other color you prefer */
     padding: 20px; /* Add padding for spacing within the box */
     text-align: center; /* Center the text horizontally */
-    color: #1F2937; /* Set text color to a contrasting color */
+    color: #d4dde9; /* Set text color to a contrasting color */
     height:125px;
     width: 450px;
     display: flex;
@@ -97,22 +99,22 @@ button {
 }
 .boxContainer {
     display: flex; /* Activates Flexbox layout */
-    justify-content: space-around;
     align-items: center; /* This will vertically align items in the middle, if they have different heights */
-
+    justify-content: center; 
+    gap: 30px;             
   }
   
   .indContainer{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
   }
   .box{
     height: 75px;
     width:80px;
     margin: 10px;
     padding: 10px;
-    border: 1px solid #3882F6;
+    border: 3px solid #3882F6;
     border-radius: 10px;
     text-align: center;
   }
@@ -120,18 +122,18 @@ button {
   .box p {
     margin: 0; /* Remove default margin for better alignment */
     text-align: center; /* Center the text */
-    margin-top: 10px; /* Add spacing between the box and text */
+    margin-top: 4px; /* Add spacing between the box and text */
 
 }
 .boxText {
     text-align: center;
-    margin-top:10px;  
 }
 
 .boxText p {
-    font-weight: lighter;
-    font-size: 14px;
-    width: 85px;
+    font-weight: normal;
+    font-size: 11px;
+    color: #555d6b;
+    width: 105px;
     text-align: center;
 }
   .greybackground {
@@ -147,10 +149,10 @@ button {
 
 .greyContent1 {
     word-wrap: break-word; /* Add this line for text wrapping */
-    max-width: 380px; /* Adjust the value as needed */
+    max-width: 395px; /* Adjust the value as needed */
     text-align: left;
     font-size: 18px;
-    font-weight: lighter;
+    font-weight:300;
     font-style: italic;
     color: #1F2937;
 }
@@ -197,7 +199,7 @@ font-weight:normal;
 .buttonBottom {
     background-color: transparent; /* Set background color to transparent */
     color: #e7eaec; /* Set text color to your desired color */
-    border: 1px solid #e6edf2; /* Add a border with your desired color */
+    border: 2px solid #e6edf2; /* Add a border with your desired color */
     padding: 5px 30px;
     border-radius: 5px;
     cursor: pointer;
